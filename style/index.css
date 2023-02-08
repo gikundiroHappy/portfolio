@@ -1,0 +1,232 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+nav {
+  display: flex;
+  padding: 1rem 5rem 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 999;
+  height: 80px;
+}
+.logo {
+  width: 180px;
+  height: 70px;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  font-size: 1.8rem;
+  align-items: center;
+  color: white;
+}
+.nav-links .nav-list a:link,
+.nav-links .nav-list a:visited {
+  color: white;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+.nav-links .nav-list a:hover,
+.nav-links .nav-list a:active {
+  color: orange;
+  /* background: black; */
+}
+
+.home-page {
+  background-image: url(../../images/img7.JPG);
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.home-page .content {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.content h1 {
+  font-size: 2.5rem;
+}
+.content h3 {
+  font-size: 1.5rem;
+}
+.content .about-btn {
+  margin-top: 2rem;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: orange;
+  margin-left: 9rem;
+}
+.content .about-btn a {
+  text-decoration: none;
+  color: white;
+}
+.content .about-btn:hover {
+  background-color: rgb(168, 111, 4);
+  color: white;
+}
+.about-page h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: orange;
+  padding-top: 4.8rem;
+  padding-bottom: 1.8rem;
+}
+.about-page p {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.aboutt {
+  background: #ddd;
+}
+.about-page .intro {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.card-container .card-one {
+  background-color: gray;
+  padding: 2rem 2rem;
+  border-radius: 15px;
+}
+
+.card-container {
+  display: flex;
+  padding-left: 50rem;
+  gap: 3rem;
+  font-size: 1.8rem;
+}
+
+.about-page .cvbtn {
+  text-align: center;
+  position: relative;
+}
+.cvbtn button {
+  border-radius: 0.8rem;
+  background-color: orange;
+  padding: 1.5rem 4.4rem 1.5rem 1.5rem;
+  border: none;
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.cvbtn button:hover {
+  background-color: rgb(104, 68, 3);
+  color: white;
+}
+.cvbtn .ion-arrow-down-a {
+  position: absolute;
+  font-size: 2rem;
+  left: 53%;
+  top: 45%;
+}
+.education-page h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: orange;
+  padding-top: 1.8rem;
+  padding-bottom: 3.8rem;
+}
+
+.ion-social-buffer {
+  font-size: 6rem;
+  color: rgb(197, 130, 5);
+}
+.education-page {
+  display: ;
+}
+.section-one {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.8rem;
+  background-color: white;
+  background: #ddd;
+  padding: 6rem 3rem;
+}
+.level-one {
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.314);
+  overflow: hidden;
+  padding: 3rem;
+}
+.contact-page h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: orange;
+  padding-top: 3.8rem;
+  padding-bottom: 1.8rem;
+}
+.ion-ios-email {
+  font-size: 6rem;
+  color: rgb(163, 108, 5);
+}
+.ion-ios-telephone {
+  font-size: 6rem;
+  color: rgb(155, 102, 4);
+}
+.ion-ios-location {
+  font-size: 6rem;
+  color: rgb(168, 112, 7);
+}
+.info {
+  display: flex;
+  gap: 2rem;
+}
+.info p {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.contact-page .info-container .info,
+.message-info {
+  /* text-align: center; */
+  padding-left: 50rem;
+  background: #ddd;
+}
+.contact-page .info-container .message-info p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.contact-page .info-container .message-info input {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  border-radius: 5%;
+  width: 46rem;
+  border: none;
+}
+.contact-page .info-container .message-info button {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  margin: 1rem 0rem;
+  background: orange;
+  border: none;
+  border-radius: 0.8rem;
+}
+.contact-page .info-container .message-info button:hover {
+  background: rgb(148, 97, 3);
+  color: white;
+}
